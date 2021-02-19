@@ -1,0 +1,45 @@
+JDK 8
+
+https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html
+
+
+Eclipse
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2020-12/R/eclipse-inst-jre-win64.exe&mirror_id=105
+
+git
+
+https://git-scm.com/download/win
+
+Maven
+
+https://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip
+
+  JSE
+  JEE
+  JME
+
+----------------------------------------------------------------------------------------------
+  Java 
+  
+     JDK
+     JRE
+
+
+     javac  (javac HelloWorld.java) -> HelloWorld.class (JVM)
+     java    java HelloWorld
+
+Comments:
+
+    1. Single
+    2. Multi
+    3. Document 
+     
+     
+--------------------------------------------------------------------------------------------------
+Programming Questions:
+
+		http://jsltech.blogspot.com/2014/09/interview-preparations.html
+		
+Programming Basics Quiz:
+
+		http://jsltech.blogspot.com/2014/08/
