@@ -13,7 +13,9 @@ public class IPLData {
 				sc.nextLine();
 				int N = 189;
 				String[] names = new String[N];
-				double[] price = new double[N];
+			    double[] price = new double[N];
+				
+				
 				int i =0;
 				while(sc.hasNextLine()) {
 					String data = sc.nextLine();
@@ -33,6 +35,7 @@ public class IPLData {
 					if(min > p) {
 						min = p;
 					}
+					
 				}
 				// Can you find max paid player(s) and display name(s)
 				System.out.println("Max amount is :"+max+" and player(s)");
@@ -52,5 +55,6 @@ public class IPLData {
 					}
 				}
 				System.out.println("Base priced player count :"+count);
+				sc.close();
 		}
 }
