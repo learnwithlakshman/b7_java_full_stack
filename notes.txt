@@ -50,3 +50,25 @@ http://jsltech.blogspot.com/2016/04/selection-bubble-insertion-sort-in-java.html
 Arrays:
 
 https://jsltech.blogspot.com/search?q=arrays
+
+
+
+import java.lang.*;
+
+String: 
+       In java string objects are immutable
+       
+       ==  Operator, which compares references 
+       equals() method, which compares content of the string object 
+       
+		interfaces
+		classes
+		enums
+		annotation types
+		exceptions
+		errors
+
+String task:
+
+https://jsltech.blogspot.com/search?q=String
+
