@@ -72,3 +72,9 @@ String task:
 
 https://jsltech.blogspot.com/search?q=String
 
+Class
+Object
+Abstraction
+Inheritence
+Polymporphism
+
