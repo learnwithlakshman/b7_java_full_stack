@@ -1,0 +1,13 @@
+package com.careerit.cj.basics.accessspecifiers.one;
+
+public class Three {
+
+		private One obj = new One();
+		
+		public void show() {
+			//System.out.println(obj.pri_a);
+			System.out.println(obj.pub_a);
+			System.out.println(obj.def_a);
+			System.out.println(obj.pro_a);
+		}
+}
