@@ -93,3 +93,7 @@ final:
  static block
  
 
+Object Relationships 
+
+	https://javapapers.com/oops/association-aggregation-composition-abstraction-generalization-realization-dependency/
+
