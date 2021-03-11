@@ -19,15 +19,12 @@ abstract class AbstractGame implements Game {
 }
 
 class Bike extends AbstractGame implements Game {
-
 	public void play() {
 		System.out.println("You are playing game : " + this.getClass().getSimpleName() + ", please wear helmet");
 	}
-
 }
 
 class Car extends AbstractGame implements Game {
-
 
 	public void play() {
 		System.out.println("You are playing game : " + this.getClass().getSimpleName() + ", please wear seat belt");
