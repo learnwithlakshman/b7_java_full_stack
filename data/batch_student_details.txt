@@ -1,0 +1,8 @@
+FS001,IRP,Krish,krish.t@gmail,10000,Y,4
+FS001,IRP,Manoj,manoj.pvn@gmail,10000,Y,3
+FS002,PRP,Charan,charan.k@gmail,10000,Y,5
+FS001,IRP,Kiran,kiran.k@gmail,10000,Y,5
+FS001,IRP,Suresh,suresh.p@gmail,10000,Y,3
+FS002,PRP,Jayesh,jayesh.h@gmail,10000,N,2
+FS003,IRP,Suresh,suresh.p@gmail,10000,Y,3
+FS003,IRP,Jayesh,jayesh.h@gmail,10000,N,4
