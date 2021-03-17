@@ -1,6 +1,6 @@
 package com.careerit.cj.collection;
 
-public class Player {
+public class Player  {
 	private String name;
 	private String role;
 	private String country;
@@ -63,6 +63,7 @@ public class Player {
 		return String.format("Player [name=%s, role=%s, country=%s, team=%s, price=%s]", name, role, country, team,
 				price);
 	}
+
 
 	
 }
