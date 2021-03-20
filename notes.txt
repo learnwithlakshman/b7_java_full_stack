@@ -188,3 +188,19 @@ writing yaml files using java
 
 properties vs yaml
 
+
+Java8 Streams References:
+
+Java8 in Action
+
+https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html
+
+
+
+Clone :
+
+https://github.com/learnwithlakshman/batch3_proj_tasks.git
+
+
+
+
