@@ -202,5 +202,17 @@ Clone :
 https://github.com/learnwithlakshman/batch3_proj_tasks.git
 
 
+error
+exception
+   
+   try, catch, throw, throws, finally
+   
+bug
+
+
+
+
+
+
 
 
