@@ -31,7 +31,8 @@ public class ExcpeptionExample3 {
 	}
 
 	public static void hello(int num) throws NumberFormatException {
-
+		String name = "Hello";
+		
 		
 			//Insufficient funds  ( SMS)
 		    // Max limit          ( SMS email)
