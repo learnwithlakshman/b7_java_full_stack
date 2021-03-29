@@ -213,6 +213,6 @@ bug
 
 https://jsltech.blogspot.com/2012/05/reflection-api-in-java.html
 
+IPl Stat - json-configurations
 
-
-
+https://github.com/learnwithlakshman/json-configurations.git
