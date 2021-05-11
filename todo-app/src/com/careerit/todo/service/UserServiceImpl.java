@@ -1,15 +1,15 @@
 package com.careerit.todo.service;
 
-import com.careerit.todo.dao.UserDAO;
-import com.careerit.todo.dao.UserDAOImpl;
+import com.careerit.todo.dao.UserDao;
+import com.careerit.todo.dao.UserDaoImpl;
 import com.careerit.todo.domain.RegUser;
 
 public class UserServiceImpl implements UserService{
 
-	private UserDAO userDao;
+	private UserDao userDao;
 	
 	public UserServiceImpl() {
-			userDao = new UserDAOImpl();
+			userDao = new UserDaoImpl();
 	}
 	
 	@Override

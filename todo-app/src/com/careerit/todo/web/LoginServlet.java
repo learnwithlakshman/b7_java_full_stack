@@ -10,6 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.careerit.todo.service.UserService;
 import com.careerit.todo.service.UserServiceImpl;
@@ -35,14 +36,16 @@ public class LoginServlet extends HttpServlet {
 			String loginUser = userService.login(username, password);
 			
 			RequestDispatcher rd;
-			if(loginUser.isEmpty()) {
+			if(loginUser ==null || loginUser.isEmpty()) {
+				response.setContentType("text/html");
 				PrintWriter out = response.getWriter();
-				out.println("Invalid Credentials");
 				request.setAttribute("errormessage", "Invalid credentials");
 				rd = request.getRequestDispatcher("login.jsp");
 				rd.include(request, response);
 				return;
 			}else {
+				HttpSession session = request.getSession();
+				session.setAttribute("username", username);
 				response.sendRedirect("home");
 			}
 	}

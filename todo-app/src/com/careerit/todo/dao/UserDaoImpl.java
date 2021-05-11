@@ -9,10 +9,10 @@ import java.util.logging.Logger;
 import com.careerit.todo.dao.util.DbConnection;
 import com.careerit.todo.domain.RegUser;
 
-public class UserDAOImpl implements UserDAO {
+public class UserDaoImpl implements UserDao {
 
 	private DbConnection connUtil = DbConnection.util;
-	private static final Logger log = Logger.getLogger(UserDAOImpl.class.getName());
+	private static final Logger log = Logger.getLogger(UserDaoImpl.class.getName());
 
 	private static final String REG_USER = "insert into reguser(username,email,password) values(?,?,?)";
 	private static final String SELECT_USER = "select username from reguser where (username=? or email=?) and password=?";
