@@ -2,6 +2,7 @@ package com.careerit.todo.web;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.logging.Logger;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -21,7 +22,8 @@ import com.careerit.todo.service.TodoServiceImpl;
 @WebServlet("/home")
 public class HomeServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+	
+	private static final Logger log = Logger.getLogger(HomeServlet.class.getName());
 	private TodoService todoService = new TodoServiceImpl();
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
@@ -36,6 +38,8 @@ public class HomeServlet extends HttpServlet {
 		} else {
 			response.sendRedirect("loginform");
 		}
+		String params = request.getQueryString();
+		log.info("Query parameters :"+params);
 	}
 
 	/**
